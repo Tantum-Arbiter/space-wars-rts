@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.DS_Store
+coverage/
+
+# Secrets — never commit (AI-agent safety)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+credentials.json
+client_secret*.json
+service-account*.json
+token.json
+id_rsa
+id_ed25519
